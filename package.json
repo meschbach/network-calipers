@@ -1,0 +1,9 @@
+{
+	"name": "network-caliper",
+	"version": "0.0.1",
+	"description": "A tool for measuring a TCP/IP application layer bandwidth usage",
+	"author": "Mark Eschbach <meschbach@gmail.com>",
+	"dependencies": {
+		"optimist": "0.3.7"
+	}
+}

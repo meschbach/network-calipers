@@ -14,7 +14,7 @@ which will output:
 
 
 Now, let us connect to our service using telnet:
-> telnet 127.0.0.2 9999
+>$ telnet 127.0.0.2 9999
 >Trying 127.0.0.1...
 >Connected to localhost.
 >Escape character is '^]'.
@@ -30,7 +30,7 @@ Now, let us connect to our service using telnet:
 >Connection: keep-alive
 >Accept-Ranges: bytes
 >
-> ...Cut because of Markdown...
+>...Cut because of Markdown...
 
 Which the caliper application will output the following when the connection is closed:
 >Sent  35  bytes and recieved  367  bytes
@@ -38,7 +38,6 @@ Which the caliper application will output the following when the connection is c
 To shutdown the caliper utilize Control-C, at which point the Caliper will output the total bandwidth used during the session:
 >SIGINT received
 >Sent 35 bytes / Received 367 bytes
-
 
 ## Installation
 

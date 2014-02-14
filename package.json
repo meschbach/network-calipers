@@ -5,5 +5,8 @@
 	"author": "Mark Eschbach <meschbach@gmail.com>",
 	"dependencies": {
 		"optimist": "0.3.7"
+	},
+	"devDependencies" : {
+		"mocha" : "1.17.1"
 	}
 }
